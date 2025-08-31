@@ -1,9 +1,7 @@
-# CUMCM 2025 终极模板 (CUMCM-2025-Template)
+# CUMCM 2025 模板 (CUMCM-2025-Template)
 
-本项目是一个为2025年中国大学生数学建模竞赛（CUMCM）设计的高度结构化、AI协作优化的竞赛模板。通过以**2024年国赛B题**作为完整示例，它旨在为参赛队伍（包括人类与AI助手）提供一个清晰、高效、标准化的工作流程起点。
-
-本项目使用 `uv` 进行包管理。
-
+## 项目的python项目使用`uv`进行包管理
+## 为2025年CUMCM作准备
 ---
 
 ## 目录结构详解
@@ -39,7 +37,7 @@
 │       └── problem2.py
 ├── .gitignore            # Git忽略配置文件
 ├── README.md             # 本指南
-└── pyproject.toml        # Python项目配置文件 (uv)
+└── tmpl.texorigin        # 社区下载的tex文件
 ```
 
 ### 各部分用途说明
