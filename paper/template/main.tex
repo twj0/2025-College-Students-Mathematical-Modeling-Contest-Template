@@ -1,0 +1,123 @@
+% CUMCM 2025 Paper Template
+% For electronic submission, use the 'withoutpreface' option.
+% Official requirement: https://cumcm.cnki.net/cumcm/studentHome/noticeDetail?id=c0c5220f-0226-4cd8-bce1-e1f81e1e23f6
+
+\documentclass[withoutpreface,bwprint]{cumcm} % Use 'cumcm.cls' from the same directory
+
+% Basic packages (already included in cumcm.cls but good to be aware of)
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{subcaption}
+
+% Title and Team Information (To be filled in the solution/main.tex)
+\title{全国大学生数学建模竞赛 \LaTeX{} 模板}
+\tihao{B}
+\baominghao{12345}
+\schoolname{Your University}
+\membera{Member A}
+\memberb{Member B}
+\memberc{Member C}
+\supervisor{Supervisor}
+\yearinput{2025}
+\monthinput{9}
+\dayinput{1}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+%% TODO: Write the abstract here. It should be a concise summary of your work (around 300 words).
+%% It must include the problem description, your model, the algorithm, and the main conclusions.
+%% AI-PROMPT: Based on the entire paper, please generate a concise and comprehensive abstract.
+
+\keywords{Keyword 1\quad Keyword 2\quad Keyword 3} %% TODO: Fill in your keywords
+\end{abstract}
+
+% The table of contents is not required by CUMCM.
+% \tableofcontents
+
+\section{问题重述 (Problem Restatement)}
+%% TODO: Clearly and concisely restate the problem in your own words.
+%% This section demonstrates your understanding of the problem.
+
+\section{模型假设 (Model Assumptions)}
+%% TODO: List all the assumptions you made for your model.
+%% Justify why these assumptions are reasonable.
+\begin{assumption}
+    Assumption 1...
+\end{assumption}
+\begin{assumption}
+    Assumption 2...
+\end{assumption}
+
+\section{符号说明 (Notation)}
+%% TODO: Define all the symbols and variables used in your paper.
+\begin{center}
+    \begin{tabular}{cl}
+        \toprule[1.5pt]
+        \makebox[0.3\textwidth][c]{符号 (Symbol)} & \makebox[0.5\textwidth][c]{意义 (Meaning)} \\
+        \midrule[1pt]
+        $x$ & Description of variable x. \\
+        $Y$ & Description of variable Y. \\
+        \bottomrule[1.5pt]
+    \end{tabular}
+\end{center}
+
+\section{模型建立与求解 (Model Formulation and Solution)}
+\subsection{模型一：... (Model 1: ...)}
+%% AI-PROMPT: Based on the code in `src/solution/problem1.py`, explain the mathematical principles
+%% of the model, including the equations and the logic behind them.
+
+\subsection{模型求解 (Model Solution)}
+%% TODO: Describe the algorithm or method used to solve the model.
+%% Refer to the implementation in the source code.
+
+\section{结果分析 (Results Analysis)}
+%% TODO: Present and analyze your results. Use figures and tables to support your analysis.
+\begin{figure}[htbp]
+    \centering
+    % \includegraphics[width=0.8\textwidth]{../solution/figures/figure_name.png}
+    \caption{Caption for the figure.}
+    \label{fig:example_figure}
+\end{figure}
+%% AI-PROMPT: Please describe the information revealed by the figure above (Fig \ref{fig:example_figure})
+%% and analyze its impact on our model selection and conclusions.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Caption for the table.}
+    \label{tab:example_table}
+    \begin{tabular}{ccc}
+        \toprule
+        Header 1 & Header 2 & Header 3 \\
+        \midrule
+        Data 1 & Data 2 & Data 3 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+%% AI-PROMPT: Based on the data in `results/tables/table_name.csv`, summarize the key findings
+%% from the table above (Table \ref{tab:example_table}).
+
+\section{结论与展望 (Conclusion and Outlook)}
+%% TODO: Summarize your findings and the main conclusions of your work.
+%% Discuss the strengths and weaknesses of your model and suggest potential improvements.
+
+% References
+\begin{thebibliography}{9}
+    \bibitem{bib:example}
+    Author, A. N.
+    \newblock Title of the work.
+    \newblock \emph{Journal Name}, Year, Volume(Issue), pages.
+\end{thebibliography}
+
+% Appendices
+\begin{appendices}
+\section{Appendix A: Source Code}
+%% TODO: Include key parts of your source code if necessary.
+%% Use the lstlisting environment for code snippets.
+\end{appendices}
+
+\end{document}

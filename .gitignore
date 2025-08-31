@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+.env
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Data files - raw data should not be committed
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+
+# Results - generated files should not be committed
+results/figures/*
+!results/figures/.gitkeep
+results/tables/*
+!results/tables/.gitkeep
+results/logs/*
+!results/logs/.gitkeep
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# IDE specific files
+.vscode/
+.idea/
+CUM/CUM2024/CUMCM2024Problems/format2024.doc
+CUM/CUM2024/CUMCM2024Problems/B题/B题.pdf
+CUM/CUM2025/__init__.md
+paper/ref/Python algorithm in mathematical modeling/层次分析法Python代码.txt
+paper/ref/Python algorithm in mathematical modeling/多目标模糊综合评价模型Python代码.docx
+paper/ref/Python algorithm in mathematical modeling/二次规划模型Python代码.docx
+paper/ref/Python algorithm in mathematical modeling/非线性规划模型Python代码.docx
+paper/ref/Python algorithm in mathematical modeling/灰色预测模型Python代码.txt
+paper/ref/Python algorithm in mathematical modeling/卷积神经网络模型Python代码.txt
+paper/ref/Python algorithm in mathematical modeling/决策树分类模型Python代码.txt
+paper/ref/Python algorithm in mathematical modeling/逻辑回归模型Python代码.txt
+paper/ref/Python algorithm in mathematical modeling/蒙特卡洛模型Python代码.docx
+paper/ref/Python algorithm in mathematical modeling/模糊综合评价模型Python代码.txt
+paper/ref/Python algorithm in mathematical modeling/数学建模拟合模型Python代码.txt
+paper/ref/Python algorithm in mathematical modeling/随机森林分类模型Python代码.txt
+paper/ref/Python algorithm in mathematical modeling/线性规划模型Python代码.txt
+paper/ref/Python algorithm in mathematical modeling/一维、二维插值模型Python代码.txt
+paper/ref/Python algorithm in mathematical modeling/整数规划模型Python代码.docx
+paper/ref/Python algorithm in mathematical modeling/支持向量机模型Python代码.txt
+paper/ref/Python algorithm in mathematical modeling/智能优化之粒子群模型Python代码.txt
+paper/ref/Python algorithm in mathematical modeling/智能优化之模拟退火模型Python代码.txt
+paper/ref/Python algorithm in mathematical modeling/智能优化之遗传算法Python代码.txt
+paper/ref/Python algorithm in mathematical modeling/主成分分析算法Python代码.txt
+paper/ref/Python algorithm in mathematical modeling/最短路径算法Python代码.docx
+paper/ref/Python algorithm in mathematical modeling/ARIMA时间序列预测模型Python代码.txt
+paper/ref/Python algorithm in mathematical modeling/BP神经网络模型Python代码.txt
+paper/ref/Python algorithm in mathematical modeling/K-means聚类模型Python代码.docx
+paper/ref/Python algorithm in mathematical modeling/LICENSE
+paper/ref/Python algorithm in mathematical modeling/README.md
+paper/ref/Python algorithm in mathematical modeling/TOPSIS综合评价模型Python代码.docx
+paper/ref/Python algorithm in mathematical modeling/0-1背包问题动态规划模型Python代码/基础0-1背包问题（动态规划）/2.exe
+paper/ref/Python algorithm in mathematical modeling/0-1背包问题动态规划模型Python代码/基础0-1背包问题（动态规划）/2.py
+paper/ref/Python algorithm in mathematical modeling/0-1背包问题动态规划模型Python代码/基础0-1背包问题（动态规划）/2.spec
+paper/ref/Python algorithm in mathematical modeling/0-1背包问题动态规划模型Python代码/基础0-1背包问题（动态规划）/input_assgin02_01.dat
+paper/ref/Python algorithm in mathematical modeling/0-1背包问题动态规划模型Python代码/基础0-1背包问题（动态规划）/input_assgin02_02.dat
+paper/ref/Python algorithm in mathematical modeling/0-1背包问题动态规划模型Python代码/基础0-1背包问题（动态规划）/input_assgin02_03.dat
+paper/ref/Python algorithm in mathematical modeling/0-1背包问题动态规划模型Python代码/基础0-1背包问题（动态规划）/input_assgin02_04.dat
+paper/ref/Python algorithm in mathematical modeling/0-1背包问题动态规划模型Python代码/基础0-1背包问题（动态规划）/input_assgin02_05.dat
+paper/ref/Python algorithm in mathematical modeling/判别分析Fisher模型Python代码/Fisher算法/fish.py
+paper/ref/Python algorithm in mathematical modeling/判别分析Fisher模型Python代码/Fisher算法/test_data.txt
+paper/ref/Python algorithm in mathematical modeling/判别分析Fisher模型Python代码/Fisher算法/train_data.txt
+paper/ref/Python algorithm in mathematical modeling/动态规划模型Python代码/dynamic.py
+paper/ref/Python algorithm in mathematical modeling/神经网络分类模型Python代码/神经网络分类.py
+paper/ref/Python algorithm in mathematical modeling/神经网络分类模型Python代码/sklearn神经网络—多分类数字识别.docx
+paper/ref/Python algorithm in mathematical modeling/马尔科夫预测模型Python代码/HMM_2.py
